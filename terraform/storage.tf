@@ -4,21 +4,15 @@ resource "b2_bucket" "photos" {
   bucket_type = "allPublic"
 
   cors_rules {
-    cors_rule_name  = "allow-domain"
-    allowed_origins = [
-      "https://${var.images_subdomain}.${var.domain}",
-      "https://${var.site_subdomain}.${var.domain}"
-    ]
-    allowed_headers = ["*"]
+    cors_rule_name = "allow-all"
+    allowed_origins = ["*"]
+    # TODO: restrict to specific origins before going to production
+    # allowed_origins = [
+    #   "https://${var.images_subdomain}.${var.domain}",
+    #   "https://${var.site_subdomain}.${var.domain}"
+    # ]
+    allowed_headers    = ["*"]
     allowed_operations = ["s3_head", "s3_get"]
-    max_age_seconds = 3600
+    max_age_seconds    = 3600
   }
 }
-
-# Read-only application key scoped to the photos bucket
-resource "b2_application_key" "photos_readonly" {
-  key_name     = "${var.b2_bucket_name}-readonly"
-  capabilities = ["listBuckets", "readFiles", "listFiles"]
-  bucket_id    = b2_bucket.photos.bucket_id
-}
-
