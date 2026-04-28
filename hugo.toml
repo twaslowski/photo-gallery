@@ -2,3 +2,7 @@ baseURL = 'https://photography.twaslowski.com/'
 locale = 'en-us'
 title = 'tobis photography'
 theme = 'ananke'
+
+[params]
+  imageBaseURL = 'https://img.twaslowski.com/file/photos-web-prod/'
+

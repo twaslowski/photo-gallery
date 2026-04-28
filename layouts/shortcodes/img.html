@@ -1,0 +1,4 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+<img src="{{ site.Params.imageBaseURL }}{{ $src }}" alt="{{ $alt }}" />
+

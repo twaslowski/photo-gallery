@@ -3,9 +3,11 @@ resource "cloudflare_dns_record" "images" {
   zone_id = var.cloudflare_zone_id
   name    = var.images_subdomain
   type    = "CNAME"
-  content = "f005.backblazeb2.com"
+  content = "f003.backblazeb2.com"
   proxied = true
   ttl     = 1 # auto when proxied
+
+  comment = "managed-by:terraform;application:photo-gallery"
 }
 
 # CNAME for site domain -> GitHub Pages
@@ -16,4 +18,6 @@ resource "cloudflare_dns_record" "pages" {
   content = "${var.github_username}.github.io"
   proxied = true
   ttl     = 1
+
+  comment = "managed-by:terraform;application:photo-gallery"
 }
