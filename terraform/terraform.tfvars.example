@@ -1,0 +1,8 @@
+domain               = "yourdomain.com"
+images_subdomain     = "img"
+cloudflare_zone_id   = "your-cloudflare-zone-id"
+cloudflare_api_token = "your-cloudflare-api-token"
+b2_bucket_name       = "photos-web"
+site_subdomain       = "photography"
+github_username      = "your-github-username"
+
