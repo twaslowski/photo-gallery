@@ -16,8 +16,8 @@ resource "cloudflare_dns_record" "pages" {
   name    = var.site_subdomain
   type    = "CNAME"
   content = "${var.github_username}.github.io"
-  proxied = true
-  ttl     = 1
+  proxied = false
+  ttl     = 3600
 
   comment = "managed-by:terraform;application:photo-gallery"
 }
