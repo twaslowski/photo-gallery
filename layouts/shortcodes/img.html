@@ -1,4 +1,5 @@
 {{ $src := .Get "src" }}
 {{ $alt := .Get "alt" | default "" }}
-<img src="{{ site.Params.imageBaseURL }}{{ $src }}" alt="{{ $alt }}" />
+{{ $width := .Get "width" | default "80%" }}
+<img src="{{ site.Params.imageBaseURL }}{{ $src }}" alt="{{ $alt }}" loading="lazy" style="width: {{ $width }};" />
 

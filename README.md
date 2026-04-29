@@ -55,3 +55,12 @@ After applying, Terraform will output:
 - `images_url` — the URL to use for image `src` attributes in Hugo
 - `b2_bucket_name` / `b2_bucket_id` — for uploading photos via the B2 CLI
 - `b2_application_key_id` / `b2_application_key` — read-only credentials (e.g. for CI)
+
+## Syncing Images
+
+Images can be synced to the B2 bucket using the [B2 CLI](https://www.backblaze.com/b2/docs/quick_command_line.html)
+or tools like [rclone](https://rclone.org/b2/).
+
+```bash
+rclone copy images b2:photos-web-prod --progress
+```

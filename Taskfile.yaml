@@ -1,0 +1,13 @@
+version: "3"
+tasks:
+  run:
+    desc: Run hugo server, including drafts
+    cmds:
+      - hugo server -D
+  tf:
+    desc: Apply infrastructure changes
+    dir: terraform
+    dotenv:
+      - .env
+    cmds:
+      - terraform apply -var-file=config/prod.tfvars
