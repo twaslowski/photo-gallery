@@ -1,8 +1,10 @@
 baseURL = 'https://photography.twaslowski.com/'
 locale = 'en-us'
-title = 'tobis photography'
+title = 'tobis photography & travel blog'
 theme = 'newsroom'
 
 [params]
   imageBaseURL = 'https://img.twaslowski.com/file/photos-web-prod/'
-
+  subtitle = 'A photography and travel blog'
+  [params.contact]
+    email = 'contact@twaslowski.com'

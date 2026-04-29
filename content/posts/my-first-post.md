@@ -1,7 +1,8 @@
 +++
 date = '2026-04-28T16:20:14+01:00'
 draft = true
-title = 'Exploring Lisbon'
+title = 'Ten days in Portugal'
+image = '/images/pt-6.jpg'
 +++
 
 I've spent the last ten or so days in Portugal.
