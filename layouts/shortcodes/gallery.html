@@ -1,0 +1,41 @@
+{{/* Usage: {{< gallery "img1.avif,img2.avif,img3.avif" >}} */}}
+
+{{ $baseURL := site.Params.imageBaseURL }}
+<div class="gallery-container" style="position: relative; width: 100%; margin: 1.5rem 0;">
+    <button class="gallery-arrow-left"
+            onclick="this.parentElement.querySelector('.gallery-scroll').scrollBy({left: -300, behavior: 'smooth'})"
+            style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); z-index: 2; background: rgba(0,0,0,0.6); color: white; border: none; border-radius: 50%; width: 40px; height: 40px; font-size: 1.2rem; cursor: pointer; transition: opacity 0.3s;"
+            disabled>&#10094;
+    </button>
+    <div class="gallery-scroll"
+         style="display: flex; gap: 1rem; overflow-x: auto; scroll-snap-type: x mandatory; padding: 0.5rem 3rem; scrollbar-width: thin;">
+        {{ range split (.Get 0) "," }}
+        {{ $img := strings.TrimSpace . }}
+        <img src="{{ $baseURL }}{{ $img }}" loading="lazy"
+             style="height: 70vh; max-height: 500px; width: auto; object-fit: contain; scroll-snap-align: center; flex-shrink: 0; border-radius: 4px;"/>
+        {{ end }}
+    </div>
+    <button class="gallery-arrow-right"
+            onclick="this.parentElement.querySelector('.gallery-scroll').scrollBy({left: 300, behavior: 'smooth'})"
+            style="position: absolute; right: 0; top: 50%; transform: translateY(-50%); z-index: 2; background: rgba(0,0,0,0.6); color: white; border: none; border-radius: 50%; width: 40px; height: 40px; font-size: 1.2rem; cursor: pointer; transition: opacity 0.3s;">
+        &#10095;
+    </button>
+</div>
+<script>
+    (function () {
+        const container = document.currentScript.previousElementSibling;
+        const scroll = container.querySelector('.gallery-scroll');
+        const leftBtn = container.querySelector('.gallery-arrow-left');
+        const rightBtn = container.querySelector('.gallery-arrow-right');
+
+        function update() {
+            leftBtn.disabled = scroll.scrollLeft <= 0;
+            rightBtn.disabled = scroll.scrollLeft + scroll.clientWidth >= scroll.scrollWidth - 1;
+            leftBtn.style.opacity = leftBtn.disabled ? '0.3' : '1';
+            rightBtn.style.opacity = rightBtn.disabled ? '0.3' : '1';
+        }
+
+        scroll.addEventListener('scroll', update);
+        update();
+    })();
+</script>

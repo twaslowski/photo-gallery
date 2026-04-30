@@ -15,8 +15,4 @@ I only spent a single day in Lisbon. The day after I joined Liza we went to our 
 in Sesimbra, a one-hour drive South of Lisbon. However, we had time to take a long stroll along
 the Promenade.
 
-{{< img src="pt-1.avif" alt="Graffiti boat" >}}
-
-{{< img src="pt-3.avif" alt="Destroyed canoe" >}}
-
-{{< img src="pt-2.avif" alt="Panda" >}}
+{{< gallery "pt-1.avif,pt-3.avif" >}}
