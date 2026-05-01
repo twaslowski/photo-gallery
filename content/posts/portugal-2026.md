@@ -1,7 +1,7 @@
 +++
 date = '2026-04-30T10:20:14+01:00'
 draft = false
-title = 'ten days in portugal'
+title = 'twelve days in portugal'
 image = '/images/pt-6.jpg'
 tags = ["travel", "photography", "europe"]
 +++
