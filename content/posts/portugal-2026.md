@@ -1,11 +1,14 @@
 +++
-date = '2026-05-01T17:42:14+01:00'
+date = '2026-04-30T10:20:14+01:00'
 draft = false
 title = 'ten days in portugal'
 image = '/images/pt-6.jpg'
+tags = ["travel", "photography", "europe"]
 +++
 
-I've spent the last ten or so days in Portugal.
+I've spent the last twelve days in Portugal.
+<!--more-->
+
 Today it is time to say goodbye and begin the long drive through Spain and France all the way
 back to Germany.
 
