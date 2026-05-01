@@ -15,6 +15,13 @@ resource "b2_bucket" "photos" {
     allowed_operations = ["s3_head", "s3_get"]
     max_age_seconds    = 3600
   }
+
+  lifecycle_rules {
+    days_from_hiding_to_deleting = 1
+    days_from_starting_to_canceling_unfinished_large_files = 0
+    days_from_uploading_to_hiding = 0
+    file_name_prefix = ""
+  }
 }
 
 # Read-only application key scoped to the photos bucket

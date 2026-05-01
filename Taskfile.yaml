@@ -2,12 +2,21 @@ version: "3"
 tasks:
   run:
     desc: Run hugo server, including drafts
-    cmds:
-      - hugo server -D
+    cmd: hugo server -D
+
   tf:
     desc: Apply infrastructure changes
     dir: terraform
     dotenv:
       - .env
-    cmds:
-      - terraform apply -var-file=config/prod.tfvars
+    cmd: terraform apply -var-file=config/prod.tfvars
+
+  sync:
+    desc: Sync images to remote storages
+    dir: images
+    cmd: rclone sync . b2:photos-web-prod --progress
+
+  browse:
+    desc: Explore images directory; opens Finder on macOS
+    dir: images
+    cmd: open .

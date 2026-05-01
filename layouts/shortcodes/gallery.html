@@ -36,6 +36,12 @@
         }
 
         scroll.addEventListener('scroll', update);
+        // Re-check when images load (scrollWidth changes)
+        scroll.querySelectorAll('img').forEach(img => {
+            img.addEventListener('load', update);
+        });
+        // Re-check on resize
+        new ResizeObserver(update).observe(scroll);
         update();
     })();
 </script>
