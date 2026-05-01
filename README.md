@@ -4,6 +4,12 @@ This repository provides a really easy way to host your own image gallery.
 It works with GitHub Pages, Backblaze B2 and Cloudflare.
 The Hugo static site generator is used to create the gallery.
 
+## Creating Posts
+
+Posts are added at `content/posts`, as per Hugo convention.
+Images can be referenced via the `img` macro, which resolves to the bucket base url defined in
+`params.imageBaseURL`.
+
 ## Infrastructure
 
 All infrastructure is managed via Terraform in the `terraform/` directory. It provisions:
@@ -55,12 +61,3 @@ After applying, Terraform will output:
 - `images_url` — the URL to use for image `src` attributes in Hugo
 - `b2_bucket_name` / `b2_bucket_id` — for uploading photos via the B2 CLI
 - `b2_application_key_id` / `b2_application_key` — read-only credentials (e.g. for CI)
-
-## Syncing Images
-
-Images can be synced to the B2 bucket using the [B2 CLI](https://www.backblaze.com/b2/docs/quick_command_line.html)
-or tools like [rclone](https://rclone.org/b2/).
-
-```bash
-rclone copy images b2:photos-web-prod --progress
-```
