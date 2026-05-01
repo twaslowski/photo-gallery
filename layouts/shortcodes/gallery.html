@@ -1,6 +1,7 @@
 {{/* Usage: {{< gallery "img1.avif,img2.avif,img3.avif" >}} */}}
 
 {{ $baseURL := site.Params.imageBaseURL }}
+{{ partial "lightbox.html" . }}
 <div class="gallery-container" style="position: relative; width: 100%; margin: 1.5rem 0;">
     <button class="gallery-arrow-left"
             onclick="this.parentElement.querySelector('.gallery-scroll').scrollBy({left: -300, behavior: 'smooth'})"
@@ -12,7 +13,8 @@
         {{ range split (.Get 0) "," }}
         {{ $img := strings.TrimSpace . }}
         <img src="{{ $baseURL }}{{ $img }}" loading="lazy"
-             style="max-height: min(70vh, 500px); width: auto; object-fit: contain; scroll-snap-align: center; flex-shrink: 0; border-radius: 4px;"/>
+             onclick="openLightbox(this.src)"
+             style="max-height: min(70vh, 500px); width: auto; object-fit: contain; scroll-snap-align: center; flex-shrink: 0; border-radius: 4px; cursor: zoom-in;"/>
         {{ end }}
     </div>
     <button class="gallery-arrow-right"
@@ -36,11 +38,9 @@
         }
 
         scroll.addEventListener('scroll', update);
-        // Re-check when images load (scrollWidth changes)
         scroll.querySelectorAll('img').forEach(img => {
             img.addEventListener('load', update);
         });
-        // Re-check on resize
         new ResizeObserver(update).observe(scroll);
         update();
     })();

@@ -1,0 +1,21 @@
+{{/* Include once per page – renders the shared lightbox overlay and its script */}}
+{{ if not (.Page.Scratch.Get "lightboxRendered") }}
+{{ .Page.Scratch.Set "lightboxRendered" true }}
+<div id="shared-lightbox" style="display:none; position:fixed; inset:0; z-index:9999; background:rgba(0,0,0,0.9); align-items:center; justify-content:center; cursor:zoom-out;"
+     onclick="this.style.display='none'">
+    <img style="max-width:90vw; max-height:90vh; object-fit:contain; border-radius:4px;" />
+</div>
+<script>
+window.openLightbox = function(src) {
+    var lb = document.getElementById('shared-lightbox');
+    lb.querySelector('img').src = src;
+    lb.style.display = 'flex';
+};
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        document.getElementById('shared-lightbox').style.display = 'none';
+    }
+});
+</script>
+{{ end }}
+

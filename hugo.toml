@@ -1,6 +1,6 @@
 baseURL = 'https://photography.twaslowski.com/'
 locale = 'en-us'
-title = "tobi's photography & travel blog"
+title = "Tobi Travels"
 theme = 'newsroom'
 
 [params]
