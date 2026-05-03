@@ -8,3 +8,6 @@ theme = 'newsroom'
   subtitle = 'A photography and travel blog'
   [params.contact]
     email = 'contact@twaslowski.com'
+
+[markup.goldmark.renderer]
+  unsafe = true

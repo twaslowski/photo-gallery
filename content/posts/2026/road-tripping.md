@@ -1,12 +1,15 @@
 +++
-date = '2026-04-30T10:20:14+01:00'
+date = '2026-05-02T10:20:14+01:00'
 draft = true
-title = "Road trippin' with my two favourite allies"
-image = '/images/road-trip.jpg'
+title = "Road trippin' with my two favourite allies ..."
+image = '/images/road-trippin.jpg'
 tags = ["travel", "photography", "europe"]
 +++
 
-[... fully loaded, we've got snacks and supplies](https://www.youtube.com/watch?v=11GYvfYjyV0)  🎶
+... fully loaded, we've got snacks and supplies 🎶
+<!--more-->
+
+[🎵 Road Trippin' — Red Hot Chili Peppers](https://www.youtube.com/watch?v=11GYvfYjyV0)
 
 In this post I'll share some of the pictures from our journey from Sesimbra to Wiesbaden.
 Our itinerary was as follows: Sesimbra to Madrid, then Madrid to Perpignan, to Montbéliard
