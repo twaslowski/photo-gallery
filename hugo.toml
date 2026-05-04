@@ -4,7 +4,7 @@ title = "Tobi Travels"
 theme = 'newsroom'
 
 [params]
-  imageBaseURL = 'https://img.twaslowski.com/file/photos-web-prod/'
+  imageBaseURL = 'https://img.twaslowski.com/file/'
   subtitle = 'A photography and travel blog'
   [params.contact]
     email = 'contact@twaslowski.com'

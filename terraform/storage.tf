@@ -17,10 +17,10 @@ resource "b2_bucket" "photos" {
   }
 
   lifecycle_rules {
-    days_from_hiding_to_deleting = 1
+    days_from_hiding_to_deleting                           = 1
     days_from_starting_to_canceling_unfinished_large_files = 0
-    days_from_uploading_to_hiding = 0
-    file_name_prefix = ""
+    days_from_uploading_to_hiding                          = 0
+    file_name_prefix                                       = ""
   }
 }
 
