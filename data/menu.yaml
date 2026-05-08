@@ -1,7 +1,5 @@
 main:
   - item: About
     url: about/
-  - item: Tech Blog
-    url: https://twaslowski.com
   - item: GitHub
     url: https://github.com/twaslowski
