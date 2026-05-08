@@ -1,0 +1,9 @@
+{{/* Renders a single image with lightbox click behavior.
+     Params: src (full URL), alt (string), style (string) */}}
+{{ $src := .src }}
+{{ $alt := .alt | default "" }}
+{{ $style := .style | default "" }}
+<img src="{{ $src }}" alt="{{ $alt }}" loading="lazy"
+     onclick="openLightbox(this.src)"
+     style="{{ $style }} cursor: zoom-in;" />
+

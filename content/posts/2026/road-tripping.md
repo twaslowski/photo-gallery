@@ -1,6 +1,6 @@
 +++
-date = '2026-05-02T10:20:14+01:00'
-draft = true
+date = '2026-05-08T17:00:00+01:00'
+draft = false
 title = "Road trippin' with my two favourite allies ..."
 image = '/images/road-trippin.jpg'
 tags = ["travel", "photography", "europe"]
@@ -47,7 +47,7 @@ had a strict no-dog policy, not even on a leash, which is something we genuinely
 The city center had some nice architecture and is probably pleasant for going out and shopping, but overall very
 stressful if you are traveling with a dog.
 
-{{< gallery "rt/perp-alley-1.avif,rt/perp-alley-2.avif,rt/perp-bridge.avif" >}}
+{{< carousel images="rt/perp-alley-1.avif,rt/perp-alley-2.avif,rt/perp-bridge.avif" alt="The old town of Perpignan" >}}
 
 {{< img src="rt/perp-statue-2.avif" alt="Very artsy, if I may say so myself." >}}
 
@@ -65,5 +65,8 @@ Strasbourg.
 
 And that already concludes this post! There was not a lot here this time, largely because we did not have as much time
 and the whole trip was not even four whole days.
+
+I am currently working on an email feature so that you can subscribe if you're interested. I'm hoping to have it
+ready for next week's post. Stay tuned.
 
 Thanks for reading, and until next time!
