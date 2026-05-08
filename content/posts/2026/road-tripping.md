@@ -66,7 +66,6 @@ Strasbourg.
 And that already concludes this post! There was not a lot here this time, largely because we did not have as much time
 and the whole trip was not even four whole days.
 
-I am currently working on an email feature so that you can subscribe if you're interested. I'm hoping to have it
-ready for next week's post. Stay tuned.
+On a different note: You can now subscribe via email so you don't miss future blog posts!
 
 Thanks for reading, and until next time!
