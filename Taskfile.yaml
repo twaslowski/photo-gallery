@@ -16,6 +16,13 @@ tasks:
     dir: images
     cmd: rclone sync . b2:photos-web-prod --progress
 
+  resize:*:
+    desc: Resize images to different outputs for optimized loading
+    vars:
+      SUBDIR: '{{index .MATCH 0}}'
+    cmds:
+      - ./scripts/resize-images.sh ./images/{{.SUBDIR}}
+
   browse:
     desc: Explore images directory; opens Finder on macOS
     dir: images

@@ -49,7 +49,8 @@ resource "cloudflare_ruleset" "cache_rules_example" {
       }
 
       browser_ttl = {
-        mode = "respect_origin"
+        mode    = "override_origin"
+        default = 30 * 24 * 3600  # 30 days
       }
 
       serve_stale = {
