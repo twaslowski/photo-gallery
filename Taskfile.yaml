@@ -4,6 +4,10 @@ tasks:
     desc: Run hugo server, including drafts
     cmd: hugo server -D
 
+  build:
+    desc: Run hugo server, including drafts
+    cmd: hugo --gc --minify --baseURL https://photography.twaslowski.com
+
   tf:
     desc: Apply infrastructure changes
     dir: terraform

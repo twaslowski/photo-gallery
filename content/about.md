@@ -19,7 +19,7 @@ and explore!
 </div>
 <div style="flex: 0 0 30%;">
 
-{{< img src="about/tobi.jpg" alt="Hey, that's me!" width="100%" >}}
+{{< img src="about/tobi.avif" alt="Hey, that's me!" width="100%" >}}
 
 </div>
 </div>
