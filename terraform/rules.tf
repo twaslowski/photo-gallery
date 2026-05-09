@@ -42,15 +42,21 @@ resource "cloudflare_ruleset" "cache_rules_example" {
         mode    = "override_origin"
         default = 7 * 24 * 3600
 
-        status_code_ttl = [{
+        status_code_ttl = [
+          {
             status_code = 200
             value       = 7 * 24 * 3600
-        }]
+          },
+          {
+            status_code = 404
+            value       = 0
+          }
+        ]
       }
 
       browser_ttl = {
         mode    = "override_origin"
-        default = 30 * 24 * 3600  # 30 days
+        default = 30 * 24 * 3600 # 30 days
       }
 
       serve_stale = {

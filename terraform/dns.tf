@@ -2,7 +2,7 @@ resource "cloudflare_dns_record" "images" {
   zone_id = var.cloudflare_zone_id
   name    = var.images_subdomain
   type    = "CNAME"
-  content = "f003.backblazeb2.com"
+  content = var.backblaze_friendly_url
   proxied = true
   ttl     = 1 # auto when proxied
 

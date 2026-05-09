@@ -20,6 +20,11 @@ variable "b2_bucket_name" {
   default     = "photos-web"
 }
 
+variable "backblaze_friendly_url" {
+  description = "Friendly Backblaze URL (e.g. f003.backblaze.com)"
+  type        = string
+}
+
 variable "site_subdomain" {
   description = "Subdomain for the gallery site (e.g. photography)"
   type        = string
