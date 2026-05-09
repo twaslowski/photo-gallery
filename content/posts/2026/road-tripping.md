@@ -2,7 +2,7 @@
 date = '2026-05-08T17:00:00+01:00'
 draft = false
 title = "Road trippin' with my two favourite allies ..."
-image = '/images/road-trippin.jpg'
+image = 'rt/thumbnail-600w.avif'
 tags = ["travel", "photography", "europe"]
 +++
 
