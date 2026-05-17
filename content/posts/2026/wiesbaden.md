@@ -1,6 +1,6 @@
 +++
-date = '2026-05-17T10:20:14+01:00'
-draft = true
+date = '2026-05-17T14:00:00+01:00'
+draft = false
 title = "Wiesbaden, Spießbaden"
 image = 'wiesbaden/wb-6-800w.avif'
 tags = ["photography", "germany", "europe"]
@@ -9,7 +9,7 @@ tags = ["photography", "germany", "europe"]
 Our first stop in finding a new potential home is Wiesbaden.
 <!--more-->
 
-{{< carousel base="wiesbaden" images="wb-1,wb-2" alt="The view from our Airbnb every evening. What a nice house" >}}
+{{< carousel base="wiesbaden" images="wb-1,wb-2" alt="The view from our Airbnb every evening. What a nice house" width="80" >}}
 
 Liza really wanted to see it, and there are some reasonable arguments in favor of the city.
 Wiesbaden is the capital of the German state of Hessia. It is close to the Taunus mountain range, which has mountains
@@ -31,13 +31,13 @@ say, Hamburg. There's a lot of old architecture, which is beautiful.
 
 {{< carousel base="wiesbaden" images="wb-10,wb-11" alt="A mini-photoshoot in the city center with Liza and Panda" width="40" >}}
 
-{{< carousel base="wiesbaden" images="wb-6,wb-7,wb-4,wb-5,wb-3" alt="Some impressions of the Wiesbaden inner city." >}}
+{{< carousel base="wiesbaden" images="wb-6,wb-7,wb-8,wb-5,wb-3" alt="Some impressions of the Wiesbaden inner city." >}}
 
 On the Neroberg, there's a Russian Orthodox church that is quite impressive. I hiked there a few times,
 and while I was never lucky with the weather (it was so cloudy in those two weeks), I managed to snap some decent
 pics.
 
-{{< carousel base="wiesbaden" images="wb-9" alt="Extremely serious." >}}
+{{< carousel base="wiesbaden" images="wb-9,wb-25" alt="Extremely serious." >}}
 
 ## The Taunus
 
@@ -70,7 +70,9 @@ and the distinction between hotels and home becomes more and more difficult to e
 
 I went to visit a friend in Frankfurt for a few hours. Needless to say, I tried snapping some pictures of the skyline.
 There were also some opportunities for street photography, but I am really not used to getting up close to people.
-First, I'm not confident enough; but second and more importantly, if you've been to Frankfurt and the area around
+I'm shooting at 35mm, and I **do not** feel comfortable with how close I have to be to people to get the shots I want.
+
+More importantly, if you've been to Frankfurt and the area around
 the train station, you'll understand that **even if I was more confident**, it's not the place for street photography.
 
 > Oak's words echoed ... There's a time and place for everything, but not now.
