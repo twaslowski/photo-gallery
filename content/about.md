@@ -8,6 +8,7 @@ date = "2026-05-01"
 
 Hi! I'm Tobi. By profession, I'm a software engineer, but I enjoy doing all kinds of creative work in my free time.
 Not that software engineering is not creative, but, you know.
+<!--more-->
 
 I'm currently living as a digital nomad with my fiancée while we're figuring out where to settle down.
 We're exploring Germany and the surrounding countries. While we are traveling, I do not have the same

@@ -9,7 +9,8 @@ tags = ["travel", "photography", "europe"]
 
 Today it is time to say goodbye and begin the long drive through Spain and France all the way
 back to Germany. While I am sitting in the passenger seat, I have some time to reflect, edit some pictures
-and type some thoughts. 
+and type some thoughts.
+<!--more-->
 
 ## Lisbon
 

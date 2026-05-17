@@ -3,6 +3,12 @@ locale = 'en-us'
 title = "Tobi Travels"
 theme = 'newsroom'
 
+[outputs]
+  home = ['html', 'rss']
+  section = ['html', 'rss']
+  taxonomy = ['html']
+  term = ['html']
+
 [params]
   imageBaseURL = 'https://img.twaslowski.com/file/'
   subtitle = 'A photography and travel blog'

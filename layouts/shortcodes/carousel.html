@@ -1,12 +1,21 @@
-{{ $images := split (.Get "images") "," }}
+{{ $rawImages := split (.Get "images") "," }}
 {{ $alt := .Get "alt" | default "" }}
-{{ $width := .Get "width" | default "90%" }}
+{{ $width := .Get "width" | default "90" }}
+{{ $base := .Get "base" | default "" }}
+{{ $ext := .Get "ext" | default "avif" }}
+{{ $images := slice }}
+{{ range $rawImages }}
+  {{ $name := strings.TrimSpace . }}
+  {{ if $base }}{{ $name = printf "%s/%s" $base $name }}{{ end }}
+  {{ if $ext }}{{ $name = printf "%s.%s" $name $ext }}{{ end }}
+  {{ $images = $images | append $name }}
+{{ end }}
 {{ $id := printf "carousel-%d" .Ordinal }}
 {{ $total := len $images }}
 
 {{ partial "lightbox.html" . }}
 
-<div id="{{ $id }}" style="text-align:center; position:relative; max-width:{{ $width }}; margin:0 auto;">
+<div id="{{ $id }}" style="text-align:center; position:relative; max-width:{{ $width }}%; margin:0 auto;">
     <div class="carousel-track" style="position:relative; width:100%;">
         {{ range $i, $img := $images }}
         <div class="carousel-slide" data-index="{{ $i }}"
@@ -35,7 +44,7 @@
         &#8250;
     </button>
 
-    <p style="color:var(--text); opacity:0.7;">{{ $alt }}{{ if $alt }} – {{ end }}<span class="carousel-counter">1/{{ $total }}</span>
+    <p style="color:var(--text); opacity:0.7;">{{ $alt | safeHTML }}{{ if $alt }} – {{ end }}<span class="carousel-counter">1/{{ $total }}</span>
     </p>
 </div>
 
