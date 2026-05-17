@@ -47,7 +47,7 @@ had a strict no-dog policy, not even on a leash, which is something we genuinely
 The city center had some nice architecture and is probably pleasant for going out and shopping, but overall very
 stressful if you are traveling with a dog.
 
-{{< carousel images="rt/perp-alley-1.avif,rt/perp-alley-2.avif,rt/perp-bridge.avif" alt="The old town of Perpignan" >}}
+{{< carousel base="rt" images="perp-alley-1,perp-alley-2,perp-bridge" alt="The old town of Perpignan" >}}
 
 {{< img src="rt/perp-statue-2.avif" alt="Very artsy, if I may say so myself." >}}
 

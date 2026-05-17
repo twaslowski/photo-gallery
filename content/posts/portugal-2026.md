@@ -22,7 +22,7 @@ Run-down does not do things justice, though. You can see a lot of houses, projec
 a new world springing up on the ruins of the old one. Here, close to the harbour, you can see a lot of
 broken, decommissioned fishing boats.
 
-{{< carousel images="portugal/boats-1.avif,portugal/boats-2.avif,portugal/boats-3.avif,portugal/boats-4.avif" alt="Graffitied, decommissioned fishing boats" >}}
+{{< carousel base="portugal" images="boats-1,boats-2,boats-3,boats-4" alt="Graffitied, decommissioned fishing boats" >}}
 
 Also, as will be customary in all future posts, there will be a lot of images of Liza and of Panda, our dog.
 
@@ -38,11 +38,11 @@ There's not a lot to do, but the nature around is quite gorgeous. There are stee
 clear Ocean and rolling hills all around. Also, Liza had gotten us an apartment that looked out over the
 Ocean, which was beautiful.
 
-{{< carousel images="portugal/pt-5.avif,portugal/pt-16.avif" alt="Impressions of Sesimbra" >}}
+{{< carousel base="portugal" images="pt-5,pt-16" alt="Impressions of Sesimbra" >}}
 
 Since there is not a lot to do in the town itself, we went hiking in the surrounding area pretty much every day.
 
-{{< carousel images="portugal/pt-6.avif,portugal/pt-9.avif,portugal/pt-12.avif,portugal/pt-15.avif,portugal/pt-14.avif" alt="Hiking in portugal is nice" >}}
+{{< carousel base="portugal" images="pt-6,pt-9,pt-12,pt-15,pt-14" alt="Hiking in portugal is nice" >}}
 
 Since the sun sets at 20:30, we did not manage to catch a lot of sunsets, but the one we did was stunning.
 
@@ -50,7 +50,7 @@ Since the sun sets at 20:30, we did not manage to catch a lot of sunsets, but th
 
 The weather was not always great though, and I managed to snap some moody pics as well.
 
-{{< carousel images="portugal/pt-13.avif,portugal/pt-11.avif" alt="Even in Portugal, the weather can't always be great" >}}
+{{< carousel base="portugal" images="pt-13,pt-11" alt="Even in Portugal, the weather can't always be great" >}}
 
 I'll leave you with one last absolutely unhinged Panda picture.
 We got her a backpack one or two years ago for carrying her when her little legs gave out.
