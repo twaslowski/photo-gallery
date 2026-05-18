@@ -26,7 +26,7 @@ broken, decommissioned fishing boats.
 
 Also, as will be customary in all future posts, there will be a lot of images of Liza and of Panda, our dog.
 
-{{< carousel images="portugal/pt-4.avif,portugal/pt-7.avif,portugal/pt-2.avif"  alt="Liza and Panda on walks in Lisbon and Sesimbra" >}}
+{{< carousel base="portugal" images="pt-4,pt-7,pt-2"  alt="Liza and Panda on walks in Lisbon and Sesimbra" >}}
 
 ## Sesimbra
 
