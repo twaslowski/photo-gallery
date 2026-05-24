@@ -6,15 +6,18 @@ image = 'ohlsdorf/ohlsdorf-1-480w.avif'
 tags = ["photography", "europe", "germany"]
 +++
 
-## Preface
-
-> Alternatively, you can go [straight to the photos](#the-photos).
 
 I'm currently back at home, for logistical and work-related reasons.
 I could not get a lot of photography done in the last week, but yesterday
 I met up with some friends to take a stroll through the Ohlsdorf cemetery.
+<!--more-->
 For those of you who are not familiar, I am fortunate enough to have the world's largest
-park cemetery essentially at my doorstep.
+park cemetery essentially at my doorstep. Let's go explore it!
+
+> If you like, you can hop [straight to the photos](#the-photos).
+
+
+{{< img src="ohlsdorf/maria-cross.avif" alt="This might be the best image I have taken so far." >}}
 
 Incidentally, this is the second time I have now been there with my camera.
 The first time was around was immediately after I first got it – the cemetery happens to be on my way to work,
@@ -39,7 +42,7 @@ several things.
 > Always [expose for the highlights](https://en.wikipedia.org/wiki/Exposing_to_the_right).
 > You can recover an astonishing amount of data from shadows, but if you overexpose (clip on any color channel)
 > data gets lost. For my music friends out there, this is the same logic that applies to audio recording as well:
-> When you clip, information is lost. You can always turn up the gain in post, but you cannot recover clipped audio.
+> When you clip, you lose information. You can always turn up the gain in post, but you cannot recover clipped audio.
 
 This time, I experimented more with lighting and tried to capture subjects from more interesting angles.
 Where possible, I also tried to capture stories or emotions instead of just the plain subject.
@@ -54,4 +57,4 @@ do not go together as well as purple and yellow, due to the latter being complim
 Therefore, I experimented with modifying the green tones in the images and shifting them to a more yellow-ish tone,
 which I do believe looks much more aesthetically pleasing.
 
-{{< compare before="portugal/pt-2.avif" after="portugal/pt-4.avif" alt1="Before edit" alt2="After edit" >}}
+{{< compare before="ohlsdorf/maria-cross.avif" after="ohlsdorf/maria-cross-original.avif" alt1="Original colors" alt2="Colors after editing" >}}
