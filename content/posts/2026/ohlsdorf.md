@@ -1,6 +1,6 @@
 +++
 date = '2026-05-24T12:00:00+01:00'
-draft = true
+draft = false
 title = "Two evenings at the Ohlsdorf cemetery"
 image = 'ohlsdorf/ohlsdorf-1-480w.avif'
 tags = ["photography", "europe", "germany"]
