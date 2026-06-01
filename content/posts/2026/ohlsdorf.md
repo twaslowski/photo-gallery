@@ -3,7 +3,7 @@ date = '2026-05-25T10:00:00+01:00'
 draft = false
 title = "Two Evenings at the Ohlsdorf Cemetery"
 image = 'ohlsdorf/middle-earth-stairs-800w.avif'
-tags = ["photography", "europe", "germany"]
+tags = ["photography", "europe", "germany", "hamburg"]
 +++
 
 
