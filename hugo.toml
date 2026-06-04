@@ -10,6 +10,7 @@ theme = 'newsroom'
   term = ['html']
 
 [params]
+  umami_website_id = '207ccaf6-7a13-4b1f-85a3-1f86fc94174a'
   imageBaseURL = 'https://img.twaslowski.com/file/'
   subtitle = 'A photography and travel blog'
   [params.contact]
