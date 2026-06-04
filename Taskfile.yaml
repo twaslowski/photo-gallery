@@ -8,13 +8,6 @@ tasks:
     desc: Run hugo server, including drafts
     cmd: hugo --gc --minify --baseURL https://photography.twaslowski.com
 
-  tf:
-    desc: Apply infrastructure changes
-    dir: terraform
-    dotenv:
-      - .env
-    cmd: terraform apply -var-file=config/prod.tfvars
-
   sync:
     desc: Sync images to remote storages
     dir: images
@@ -31,3 +24,18 @@ tasks:
     desc: Explore images directory; opens Finder on macOS
     dir: images
     cmd: open .
+
+  apply:*:
+    desc: Apply infrastructure changes
+    vars:
+      dir: '{{index .MATCH 0}}'
+    dir: terraform/{{.dir}}
+    dotenv:
+      - .env
+    cmds:
+      - terraform apply -var-file=config/prod.tfvars
+
+  get-env:
+    desc: Get environment variables from 1password CLI
+    cmds:
+      - op environment read ab2qga4a3pvvkk46pgqpu4oway
