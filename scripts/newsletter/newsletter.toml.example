@@ -1,0 +1,33 @@
+# Newsletter TOML Format Example
+# =============================
+# This file documents the standardized format for newsletter content.
+# Copy this file to create a new newsletter, e.g., `2026-06-newsletter.toml`
+
+# Required: The email subject line
+subject = "My Newsletter Title"
+
+# Required: The main text content of the newsletter
+# Supports Markdown formatting for Buttondown emails
+text = """
+Hello subscribers!
+
+This is the body of my newsletter. You can use **Markdown** here.
+
+Best,
+Your Name
+"""
+
+# Optional: Path to an image file to include in the newsletter
+# The image will be uploaded to Buttondown and embedded in the email
+# Supported formats: PNG, JPG, GIF (SVG not recommended for email)
+image = "images/2026/06/featured-photo.avif"
+
+# Optional: Alt text for the image (for accessibility)
+image_alt = "A beautiful landscape photo"
+
+# Optional: Additional metadata
+[metadata]
+# You can add any custom key-value pairs here
+author = "Your Name"
+category = "photography"
+

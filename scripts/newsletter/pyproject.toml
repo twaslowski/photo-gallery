@@ -1,0 +1,14 @@
+[project]
+name = "newsletter"
+version = "0.1.0"
+description = "Utilities around publishing updates"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "requests>=2.34.2",
+]
+
+[dependency-groups]
+dev = [
+    "black>=26.5.1",
+]

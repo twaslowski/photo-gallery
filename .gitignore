@@ -13,3 +13,5 @@ resources
 
 images/
 !static/images/
+
+__pycache__
