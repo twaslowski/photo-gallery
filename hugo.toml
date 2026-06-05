@@ -13,6 +13,8 @@ theme = 'newsroom'
   umami_website_id = '207ccaf6-7a13-4b1f-85a3-1f86fc94174a'
   imageBaseURL = 'https://img.twaslowski.com/file/'
   subtitle = 'A photography and travel blog'
+  telegram_bot = 'tobi_newsletter_bot'
+  buttondown_username = 'twaslowski'
   [params.contact]
     email = 'contact@twaslowski.com'
 
