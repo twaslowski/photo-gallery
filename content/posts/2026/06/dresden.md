@@ -1,6 +1,6 @@
 +++
-date = '2026-06-08T10:00:00+01:00'
-draft = true
+date = '2026-06-09T15:00:00+01:00'
+draft = false
 title = "Dresden"
 image = '2026/06/dresden/zwinger-eingang-800w.avif'
 tags = ["photography", "europe", "germany", "dresden"]
