@@ -14,7 +14,6 @@ theme = 'newsroom'
   imageBaseURL = 'https://img.twaslowski.com/file/'
   subtitle = 'A photography and travel blog'
   telegram_bot = 'tobi_newsletter_bot'
-  telegram_channel_invite_link = 'https://t.me/+1u9ewBP4VFIxYWVi'
   buttondown_username = 'twaslowski'
   [params.contact]
     email = 'contact@twaslowski.com'
