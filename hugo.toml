@@ -1,7 +1,7 @@
 baseURL = 'https://photography.twaslowski.com/'
 locale = 'en-us'
 title = "Tobi Travels"
-theme = 'newsroom'
+theme = 'hugo-photography-blog'
 
 [outputs]
   home = ['html', 'rss']

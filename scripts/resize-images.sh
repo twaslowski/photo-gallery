@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Generates multiple width variants of AVIF images for srcset usage.
-# Requires ImageMagick 7+ with AVIF support: brew install imagemagick
+# Requires ffmpeg with libaom support: brew install ffmpeg
 #
 # Usage: ./scripts/resize-images.sh <input-dir> [output-dir]
 #   If output-dir is omitted, resized images are written alongside originals.
@@ -10,13 +10,13 @@
 set -euo pipefail
 
 WIDTHS=(480 800 1200 1600)
-QUALITY=75
+CRF=10
 
 INPUT_DIR="${1:?Usage: $0 <input-dir> [output-dir]}"
 OUTPUT_DIR="${2:-$INPUT_DIR}"
 
-if ! command -v magick &>/dev/null; then
-  echo "Error: ImageMagick 7+ is required. Install with: brew install imagemagick"
+if ! command -v ffmpeg &>/dev/null; then
+  echo "Error: ffmpeg is required. Install with: brew install ffmpeg"
   exit 1
 fi
 
@@ -31,7 +31,8 @@ for file in "$INPUT_DIR"/*.avif; do
     continue
   fi
 
-  orig_width=$(magick identify -format "%w" "$file")
+  orig_width=$(ffprobe -v error -select_streams v:0 \
+    -show_entries stream=width -of csv=p=0 "$file" | sed "s/,//g")
 
   for w in "${WIDTHS[@]}"; do
     outfile="$OUTPUT_DIR/${basename}-${w}w.avif"
@@ -49,9 +50,12 @@ for file in "$INPUT_DIR"/*.avif; do
     fi
 
     echo "  ${basename}.avif → ${w}w"
-    magick "$file" -resize "${w}x" -quality "$QUALITY" "$outfile"
+    ffmpeg -hide_banner -loglevel fatal \
+      -i "$file" \
+      -vf "scale=${w}:-2" \
+      -crf "$CRF" \
+      "$outfile"
   done
 done
 
 echo "Done."
-

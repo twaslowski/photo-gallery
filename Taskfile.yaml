@@ -13,6 +13,12 @@ tasks:
     dir: images
     cmd: rclone sync . b2:photos-web-prod --progress
 
+  copy:*:
+    desc: Copy directory to remote storage
+    vars:
+      SUBDIR: '{{index .MATCH 0}}'
+    cmd: rclone copy ./images/{{.SUBDIR}}/ b2:photos-web-prod --progress
+
   resize:*:
     desc: Resize images to different outputs for optimized loading
     vars:

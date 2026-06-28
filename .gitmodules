@@ -1,3 +1,3 @@
-[submodule "themes/newsroom"]
-	path = themes/newsroom
-	url = https://github.com/twaslowski/newsroom.git
+[submodule "themes/hugo-photography-blog"]
+	path = themes/hugo-photography-blog
+	url = https://github.com/twaslowski/hugo-photography-blog.git
