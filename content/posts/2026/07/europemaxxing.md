@@ -1,6 +1,6 @@
 +++
 date = '2026-06-26T15:00:00+01:00'
-draft = true
+draft = false
 title = "Europemaxxing, or: how to survive 40 degrees heat with no AC"
 image = '2026/06/europemaxxing/cph-fahrraeder-800w.avif'
 tags = ["photography", "europe", "germany", "copenhagen", "hamburg"]
