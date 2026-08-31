@@ -54,7 +54,7 @@ for file in "$INPUT_DIR"/*.avif; do
       -i "$file" \
       -vf "scale=${w}:-2" \
       -crf "$CRF" \
-      "$outfile"
+      "$outfile" &> /dev/null
   done
 done
 

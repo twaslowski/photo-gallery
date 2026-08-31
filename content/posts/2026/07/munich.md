@@ -8,9 +8,9 @@ tags = ["photography", "europe", "germany", "bavaria"]
 
 It's been a minute. Let me get you up to speed.
 
-{{< img src="2026/07/alpen-wanderung-1.avif" alt="A first teaser of the beautiful shots from the Alps I got today :)" >}}
-
 <!--more-->
+
+{{< img src="2026/07/alpen-wanderung-1.avif" alt="A first teaser of the beautiful shots from the Alps I got today :)" >}}
 
 ## Reflections
 
@@ -58,7 +58,7 @@ Dresden. Unfortunately, the weather was not quite on our side, and it ended up b
 images I ended up getting are very moody. They do have character though – and they do look much better if your
 browser and screen support HDR ;)
 
-{{< img src="2026/07/bastei-1.avif" alt="View from (not of!) the 'Bastei'." >}}
+{{< img src="2026/07/bastei-1.avif" alt="View from (not of!) the Bastei." >}}
 
 {{< img src="2026/07/bastei-2.avif" alt="And an almost equally scenic shot just around the corner." >}}
 
@@ -66,4 +66,39 @@ browser and screen support HDR ;)
 
 Alright, as promised, on to Munich and the Alps. Here is what I have.
 
+We tried to make the most of our limited time in Munich. People had lots of opinions on the city before I went,
+so expectations were high. What we ended up experiencing was, I believe, very in line with what most other people
+say: The nature is gorgeous, the parks are incredible, but the city doesn't really feel like a city all that much.
+All the supermarkets close by 20:00 (in all of Bavaria; they have to, legally!) and by 22:00 it's pretty much all
+deserted.
 
+We only went to the city center once. As all city centers, it was crowded and a bit too stressful with our easily
+overstimulated four-legged companion.
+
+{{< carousel base="2026/07" images="muenchen-1,muenchen-2,muenchen-3" alt="The Marienplatz in Munich" >}}
+
+Other days, we went to the English Garden, the Nymphenburg or – possibly my favourite – simply down the Isar river.
+
+{{< img src="2026/07/muenchen-4.avif" alt="A pavilion in the English Garden." >}}
+
+{{< img src="2026/07/muenchen-6.avif" alt="A random boat rental somewhere along the Isar." >}}
+
+{{< img src="2026/07/muenchen-5.avif" alt="The Wave, a man-made constant wave for surfing enthusiasts in Munich." >}}
+
+---
+
+We only ended up having a single weekend to ourselves for exploring the alps.
+Because the alps were still a one-hour drive away, the weekend was really our only option. That, and we
+ended up taking a day off for Liza's birthday, on which we went to the Walchensee.
+
+On Saturday, we drove an hour to pretty much the outermost foothills of the alps. When we got there, we were
+faced with the choice of taking a cable car or hiking up to the upper station, which would have taken around ~2.5h
+and covered roughly 400m of elevation. Needlessly to say, we were more than happy to pay for the cable car ride.
+
+The cable car trip up took fifteen minutes, and by the end of it, we felt we had fully arrived in the Alps.
+
+{{< img src="2026/07/alpen-wanderung-1.avif" alt="The view that greets you from the cable car." >}}
+
+{{< carousel base="2026/07" images="alpen-wanderung-3,alpen-wanderung-5,alpen-wanderung-4" alt="All the things you would expect to see this far out in the mountains." >}}
+
+{{< carousel base="2026/07" images="alpen-wanderung-6,alpen-wanderung-2" alt="And our royal partner in crime – we came prepared to carry her, but she did 10km of alpine hiking all on her own!" >}}
