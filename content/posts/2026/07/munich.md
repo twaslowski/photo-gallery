@@ -88,17 +88,64 @@ Other days, we went to the English Garden, the Nymphenburg or – possibly my fa
 ---
 
 We only ended up having a single weekend to ourselves for exploring the alps.
-Because the alps were still a one-hour drive away, the weekend was really our only option. That, and we
-ended up taking a day off for Liza's birthday, on which we went to the Walchensee.
+Because the alps were still a one-hour drive away, going on the weekend really was the only option. 
+Since Liza's birthday happened to fall on a Monday, we also took that day off to travel to the Walchensee.
 
-On Saturday, we drove an hour to pretty much the outermost foothills of the alps. When we got there, we were
-faced with the choice of taking a cable car or hiking up to the upper station, which would have taken around ~2.5h
-and covered roughly 400m of elevation. Needlessly to say, we were more than happy to pay for the cable car ride.
+That Saturday, we drove an hour to pretty much the outermost foothills of the alps. When we got there, we were
+faced with the choice of taking a cable car or hiking up to the upper cable car station ourselves, which would 
+have taken around ~2.5h and covered roughly 400m of elevation. Needlessly to say, we were more than happy to pay
+for the cable car ride.
 
-The cable car trip up took fifteen minutes, and by the end of it, we felt we had fully arrived in the Alps.
+The trip up took fifteen minutes, and by the end of it, we felt we had fully arrived in the Alps.
 
 {{< img src="2026/07/alpen-wanderung-1.avif" alt="The view that greets you from the cable car." >}}
 
 {{< carousel base="2026/07" images="alpen-wanderung-3,alpen-wanderung-5,alpen-wanderung-4" alt="All the things you would expect to see this far out in the mountains." >}}
 
 {{< carousel base="2026/07" images="alpen-wanderung-6,alpen-wanderung-2" alt="And our royal partner in crime – we came prepared to carry her, but she did 10km of alpine hiking all on her own!" >}}
+
+---
+
+We took the Sunday to recover, and on Monday, we were out and about again.
+In the early morning we got up, and after a quick breakfast, for the second time in a row
+we were off on the A95 southward-bound. It wasn't precisely birthday weather: As a matter
+of fact, it was raining when we left Munich. After consulting several weather apps, we
+determined that the rain would be moving southwards, just like us, but slower.
+
+When we got to Walchensee after an uneventful one-hour drive, it was overcast, but at least
+not rainy. It was clear it'd only be a matter of time before the rain caught up with us, so
+we didn't waste any time. Once more, being faced with the choice of paying up for a quick
+cable car ride to the top or hiking two hours, we chose the former. 
+
+{{< img src="2026/07/liza-birthday-3.avif" alt="The view down from the cable car." >}}
+
+{{< img src="2026/07/liza-birthday-1.avif" alt="And the slightly overcast view over to the alps!" >}}
+
+{{< img src="2026/07/liza-birthday-2.avif" alt="Lastly, the birthday girl! 🎉 With extraordinarily dramatic lighting." >}}
+
+This time, we didn't really hike as much as go for a walk with a little bit of elevation here and there.
+The views were great, and we spent maybe 45 minutes before heading back down. We had intended to go and
+rent a boat; however, when we got to the rental place, it turned out that boats were unavailable due to a storm warning. 
+
+We ended up exploring the town of Walchensee a bit, with the acute awareness that we didn't have a lot of time
+before the storm we had left in Munich in the morning would catch up with us. The town had 
+
+{{< img src="2026/07/liza-birthday-4.avif" alt="An empty cafe in Walchensee, awaiting the storm that is following us." >}}
+
+{{< img src="2026/07/liza-birthday-5.avif" alt="Our view as we were leaving Walchensee with the first raindrops on our skin." >}}
+
+---
+
+Alright y'all, that's it. This took way too long to type out.
+It's currently 10:30 on a Thursday evening, and I am typing this blog post from my hotel room in Berlin
+because if I don't finish this post right now, I may never find the time. Startup life is so much more
+time-consuming than whatever I was doing at OTTO. Also, I'm getting married in March and still have to
+get to something like B1 Russian so I can _somewhat_ communicate with Liza's friends and family who do not
+speak English.
+
+On the bright side, I _do_ have photo material that needs posting: In early August we were in New York,
+and I got some nice shots I'll have to post sooner or later. I promise I'll post them sometime before
+the end of October.
+
+Thank you for sticking around, and see you next time :) 
+
