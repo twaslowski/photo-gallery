@@ -1,6 +1,6 @@
 +++
-date = '2026-07-26T15:00:00+01:00'
-draft = true
+date = '2026-09-18:00:00+01:00'
+draft = false
 title = "Seeing Bavaria"
 image = '2026/07/alpen-wanderung-1.avif'
 tags = ["photography", "europe", "germany", "bavaria"]
@@ -20,18 +20,17 @@ Even as digital nomads, doctor's appointments and bureaucracy will force you bac
 at least that has been our experience up to this point.
 
 I do not have a lot of photos from Bamberg. We stayed some 20km outside the city, fairly far out in a tiny
-village. Most of our walks were not as scenic as they often are. When we did go to Bamberg, my photography
+village. Most of our walks were not as scenic as they sometimes are elsewhere. When we did go to Bamberg, my photography
 was not exactly up to par; there is essentially nothing I have from there that is worth posting.
 
-This is also a reason this post is so substantially delayed: It took me a while to come to terms
+This is one of the reasons this post is so substantially delayed: It took me a while to come to terms
 with the fact that there are places I could not take any good pictures of. In the end, I decided
-I want this to be a photography rather than a travel blog (hence the domain), and therefore it'd be
-fine to not have pictures of a place.
+I want this to be a photography rather than a travel blog, and therefore it'd be fine to not have pictures of a place.
 
 The situation is only slightly better for Munich. To be completely honest, a lot of energy that I previously put into
-photography is currently being diverted to work, so there's not going to be as much. When we go out to see something
-truly scenic, I'll capture some cool photos, but my motivation to take the camera out on a day-to-day basis and really
-invest the time to find the small things has suffered a bit.
+photography is currently being diverted to work, so these posts will likely remain infrequent for the foreseeable future. 
+When we go out to see something truly scenic, I'll capture some cool photos, but my motivation to take the camera out on
+a day-to-day basis and really invest the time to find the small things has suffered a bit.
 
 I suppose this is one of the many cases of my inability to focus on a single thing for an extended period of time.
 I experience this with music, going to the gym, learning languages, chess, my pet programming projects – virtually every
@@ -89,10 +88,11 @@ Other days, we went to the English Garden, the Nymphenburg or – possibly my fa
 
 We only ended up having a single weekend to ourselves for exploring the alps.
 Because the alps were still a one-hour drive away, going on the weekend really was the only option. 
-Since Liza's birthday happened to fall on a Monday, we also took that day off to travel to the Walchensee.
+Since Liza's birthday happened to fall on a Monday, we also took that day off to travel to the Walchensee,
+one of the many lakes around Munich with a great view of the mountains.
 
 That Saturday, we drove an hour to pretty much the outermost foothills of the alps. When we got there, we were
-faced with the choice of taking a cable car or hiking up to the upper cable car station ourselves, which would 
+faced with the choice of taking a cable car or hiking up to the upper station ourselves, which would 
 have taken around ~2.5h and covered roughly 400m of elevation. Needlessly to say, we were more than happy to pay
 for the cable car ride.
 
@@ -128,18 +128,25 @@ The views were great, and we spent maybe 45 minutes before heading back down. We
 rent a boat; however, when we got to the rental place, it turned out that boats were unavailable due to a storm warning. 
 
 We ended up exploring the town of Walchensee a bit, with the acute awareness that we didn't have a lot of time
-before the storm we had left in Munich in the morning would catch up with us. The town had 
+before the storm we had left in Munich in the morning would catch up with us.
 
 {{< img src="2026/07/liza-birthday-4.avif" alt="An empty cafe in Walchensee, awaiting the storm that is following us." >}}
 
 {{< img src="2026/07/liza-birthday-5.avif" alt="Our view as we were leaving Walchensee with the first raindrops on our skin." >}}
 
+Ultimately, it took the storm some three hours to catch up with us from Munich. As we drove through the mountain passes
+back to the city, the rain came down on us as if mother nature wanted to compensate for the previous heat waves in a single
+morning. However, when we came back to Munich, the sun was out again and it was as if nothing ever happened.
+
+Liza had to leave Munich for work later that day, and I followed just two days later.
+We ended up traveling to Hamburg and on to New York just three days later. But more on that in the next post!
+
 ---
 
 Alright y'all, that's it. This took way too long to type out.
-It's currently 10:30 on a Thursday evening, and I am typing this blog post from my hotel room in Berlin
+It's currently 22:30 on a Thursday evening, and I am typing this blog post from my hotel room in Berlin
 because if I don't finish this post right now, I may never find the time. Startup life is so much more
-time-consuming than whatever I was doing at OTTO. Also, I'm getting married in March and still have to
+time-consuming than whatever I was doing before. Also, I'm getting married in March and still have to
 get to something like B1 Russian so I can _somewhat_ communicate with Liza's friends and family who do not
 speak English.
 
