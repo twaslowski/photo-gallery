@@ -1,5 +1,5 @@
 +++
-date = '2026-09-18:00:00+01:00'
+date = '2026-09-18T00:00:00+01:00'
 draft = false
 title = "Seeing Bavaria"
 image = '2026/07/alpen-wanderung-1.avif'
