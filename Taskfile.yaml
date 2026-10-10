@@ -8,16 +8,17 @@ tasks:
     desc: Run hugo server, including drafts
     cmd: hugo --gc --minify --baseURL https://photography.twaslowski.com
 
-  sync:
-    desc: Sync images to remote storages
-    dir: images
-    cmd: rclone sync . b2:photos-web-prod --progress
-
-  copy:*:
+  upload:*:
     desc: Copy directory to remote storage
     vars:
       SUBDIR: '{{index .MATCH 0}}'
     cmd: rclone copy ./images/{{.SUBDIR}}/ b2:photos-web-prod --progress
+
+  download:*:
+    desc: Copy directory to remote storage
+    vars:
+      SUBDIR: '{{index .MATCH 0}}'
+    cmd: rclone copy b2:photos-web-prod --progress ./images/{{.SUBDIR}}/ 
 
   resize:*:
     desc: Resize images to different outputs for optimized loading
