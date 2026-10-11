@@ -47,9 +47,14 @@ One of the major tourist attractions we didn't do last year was visiting any kin
 Between the Empire State Building, the Top of the Rock, One World Observatory, The Edge and probably a few more,
 there's quite the variety to choose from. We ended up going to the Top of the Rock, which we very much enjoyed.
 
-The overcast sky gives some character to the pictures, I think.
+When we started exploring the observation deck, the skies were completely overcast. We spent around an hour,
+and just as we were about to leave, the sun started coming out. Liza was nice enough to wait for me while I did
+a whole round of taking the same pictures again with the new lighting, so you now get to enjoy the side-by-side
+of some of the most impressive panoramas New York has to offer in multiple variations.
 
-{{< carousel base="2026/08/new-york" images="new-york-08, new-york-10" alt="The Empire State Building: with overcast skies, and then some sun" >}}
+{{< carousel base="2026/08/new-york" images="new-york-08, new-york-10" alt="The Empire State Building, with Wall Street and the One World Trade Center in the background" >}}
+
+{{< carousel base="2026/08/new-york" images="new-york-11-a, new-york-11" alt="Central Park and Northern Manhattan, overcast and sunny" >}}
 
 {{< img src="2026/08/new-york/new-york-09.avif" alt="This would make for a great jigsaw puzzle" >}}
 
@@ -59,9 +64,8 @@ was created during the construction of Rockefeller Center, which hosts the Top o
 In that spirit, they have a steel beam up there that you can get on for a quick photo op of your own.
 We didn't go, but I captured what I thought was a very sweet moment.
 
-{{< img src="2026/08/new-york/new-york-07.avif" alt="When you look at the original picture, Central Park is just as visible!" >}}
+{{< img src="2026/08/new-york/new-york-07.avif" alt="100 years after the original photograph, Central Park is just as visible at the same angle!" >}}
 
-{{< img src="2026/08/new-york/new-york-11.avif" alt="Just as we were leaving, the sun came out! Liza was kind enough to wait for me while I re-took all my shots with the new lighting :D" >}}
 
 ### More Manhattan
 
@@ -80,7 +84,8 @@ I don't have a lot of pictures here, although the art there was quite fascinatin
 
 {{< img src="2026/08/new-york/new-york-27.avif" alt="This is easily the most crowded painting in the building by a huge margin" >}}
 
-<!-- todo: new york public library -->
+<!-- Another place we were happy to return to was the New York  -->
+<!-- {{< carousel base="2026/08/new-york" images="new-york-18, new-york-19" alt="View from the New York Public Library onto 5th Avenue; and the iconic lions in front of the Library building" >}} -->
 
 ### All the Islands!
 
@@ -109,9 +114,7 @@ Staten Island is a different story. We really wanted to take the ferries and tak
 I also wanted to go see the home of the [Wu-Tang](https://www.youtube.com/watch?v=PBwAxmrE194). 
 Unfortunately we didn't really have enough time to walk across Staten Island to find murals, so you'll have to settle for the Statue of Liberty.
 
-{{< img src="2026/08/new-york/new-york-24.avif" alt="It was super overcast and this honestly looks better in black-and-white" >}}
-
-<!-- todo: side-by-side comparison of color/bw -->
+{{< compare before="2026/08/new-york/new-york-24.avif" after="2026/08/new-york/new-york-24-a.avif" alt="Which do you prefer here: The overcast colors, or the straightforward black-and-white?" >}}
 
 ### Times Square
 
@@ -124,4 +127,12 @@ walked through the chaos once, took the pictures we needed to take and left.
 
 {{< img src="2026/08/new-york/new-york-16.avif" alt="" >}}
 
-<!-- todo: get one more -->
+{{< img src="2026/08/new-york/new-york-31.avif" alt="I was surprised to learn that steam coming from the street vents is actually real and doesn't just happen in movies for the sake of aesthetics." >}}
+
+### And Some More Pictures
+
+Here are some more unrelated pictures that I thought are nice but don't really fit into any of the categories above.
+
+{{< img src="2026/08/new-york/new-york-33.avif" alt="More Manhattan black-and-white architecture" >}}
+{{< img src="2026/08/new-york/new-york-32.avif" alt="More Manhattan black-and-white architecture" >}}
+
