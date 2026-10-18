@@ -1,6 +1,6 @@
 +++
-date = '2026-10-17T00:00:00+01:00'
-draft = true
+date = '2026-10-18T19:00:00+01:00'
+draft = false
 title = "The Big Apple"
 image = '2026/08/new-york/new-york-08.avif'
 tags = ["photography", "us", "new york"]
@@ -45,7 +45,7 @@ Between the Empire State Building, the Top of the Rock, One World Observatory, T
 there's quite the variety to choose from. We ended up going to the Top of the Rock, which we very much enjoyed.
 
 When we left the elevator on the 66th floor and stepped outside, the skies were overcast and grey. 
-The skyscrapers surrounding us were partially hidden in the low-hanging clouds that were covering the city.
+The skyscrapers surrounding us were partially hidden in the low-hanging clouds covering the city.
 
 We spent around an hour exploring the observation deck's three floors, and just as we were about to leave, 
 the sun started coming out. Liza was nice enough to wait for me while I did
